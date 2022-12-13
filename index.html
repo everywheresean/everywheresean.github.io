@@ -1,150 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>DC Deck Building Game - Known Combos</title>
-  </head>
-  <body>
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-12"><h1>DC Deck Building - Known Combos</h1></div>
-  		</div>
-  		<div class="row">
-  			<div class="col col-md-6">
-  				<img src="img/Vixen MC - 3.jpg" alt="">
-  			</div>
-  			<div class="col col-md-6">
-  				<img src="img/Shazam MC - 3.jpg" alt="">
-  			</div>
-  		</div>
-  		<hr>
-  		<div class="row">
-  			<div class="col col-md-6">
-  				<img src="img/Killer Frost MC - 4.jpg" alt="">
-  			</div>
-  			<div class="col col-md-6">
-  				<img src="img/King Shark MC - 2.jpg" alt="">
-  			</div>
-  		</div>
-  		<hr>
-  		<div class="row">
-  			<div class="col col-md-12">
-  				<img src="img/Golden Glider MC - 6.jpg" alt="">
-  			</div>
-  		</div>
-  		<hr>
-  		<div class="row">
-  			<div class="col col-md-6">
-  				<img src="img/Indigo 1 MC - 3.jpg" alt="">
-  			</div>
-  			<div class="col col-md-6">
-  				<img src="img/Granny Goodness NG MC - 3.jpg" alt="">
-  			</div>
-  		</div>
-  		<hr>
-  		<div class="row">
-  			<div class="col col-md-4">
-  				<img src="img/Bizarro MC - 1.jpg" alt="">
-  			</div>
-  			<div class="col col-md-4">
-  				<img src="img/Kid Flash MC - 1.jpg" alt="">
-  			</div>
-  			<div class="col col-md-4">
-  				<img src="img/Darkseid NG MC - 4.jpg" alt="">
-  			</div>
-  		</div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-4">
-          <img src="img/Red Robin MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Robin MC TTG - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Nightwing MC - 2.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-6">
-          <img src="img/Harley Quinn MC - 3.jpg" alt="">
-        </div>
-        <div class="col col-md-6">
-          <img src="img/Red Lantern Supergirl MC - 3.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-4">
-          <img src="img/Harley Quinn MC - 3.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Batgirl MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Black Manta MC - 1.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-4">
-          <img src="img/Dr Manhattan MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Aquaman MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Captain Boomerang MC - 2.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-4">
-          <img src="img/Kyle Rayner MC - 1.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Trickster MC - 3.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Captain Boomerang MC - 2.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-6">
-          <img src="img/Ozymandias MC - 3.jpg" alt="">
-        </div>
-        <div class="col col-md-6">
-          <img src="img/Poison Ivy MC - 3.jpg" alt="">
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col col-md-4">
-          <img src="img/Mister Miracle NG MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Booster Gold MC - 2.jpg" alt="">
-        </div>
-        <div class="col col-md-4">
-          <img src="img/Stargirl MC - 2.jpg" alt="">
-        </div>
-      </div>
-  	</div>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/output.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 4
+      4%); }
+  </style>
+</head>
+<body class="bg-lightGray font-serif">
+  <div class="rounded-lg mx-auto mt-10 mb-5 w-72 bg-white drop-shadow-lg p-4">
+    <img src="images/image-qr-code.png" alt="Scan Me QR Code" class="rounded-lg">
+    <h2 class="text-xl text-center font-bold p-2 text-darkBlue">Improve your front-end skills by building projects</h2>
+    <p class="text-center text-[15px] font-thin">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
     
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-  </body>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://everywheresean.com">Sean Do (EverywhereSean)</a>.
+  </div>
+</body>
 </html>
